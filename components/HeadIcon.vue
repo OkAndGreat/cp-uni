@@ -26,16 +26,16 @@
 				justify-content: center;
 
 				.head_icon_left {
-					width: 75rpx;
-					height: 75rpx;
+					width: 95rpx;
+					height: 95rpx;
 					margin-right: 20rpx;
 					border-radius: 50%;
 				}
 
 				.head_icon_middle {
-					width: 35rpx;
-					height: 35rpx;
-					animation: moveUpDown 2s linear infinite;
+					width: 45rpx;
+					height: 45rpx;
+					animation: moveUpDown 2s ease-in-out infinite;
 
 					@keyframes moveUpDown {
 						0% {
@@ -57,8 +57,8 @@
 				}
 
 				.head_icon_right {
-					width: 75rpx;
-					height: 75rpx;
+					width: 95rpx;
+					height: 95rpx;
 					margin-left: 20rpx;
 					border-radius: 50%;
 				}

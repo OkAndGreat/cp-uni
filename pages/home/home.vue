@@ -8,8 +8,11 @@
 			<view class="home_top_area">
 				<HeadIcon></HeadIcon>
 				<HomeTime></HomeTime>
+				<CelebrateHang></CelebrateHang>
 			</view>
-			<view class="home_bottom_area"></view>
+			<view class="home_bottom_area">
+				<PostNotes></PostNotes>
+			</view>
 		</view>
 
 
@@ -19,6 +22,8 @@
 <script>
 	import HeadIcon from '../../components/HeadIcon.vue'
 	import HomeTime from '../../components/HomeTime.vue'
+	import CelebrateHang from '../../components/NotificationHang.vue'
+	import PostNotes from '../../components/PostNotes.vue'
 
 	export default {
 		mounted() {},
@@ -33,7 +38,9 @@
 		},
 		components: {
 			HeadIcon,
-			HomeTime
+			HomeTime,
+			CelebrateHang,
+			PostNotes
 		}
 	}
 </script>
@@ -51,10 +58,16 @@
 		.home_top_area {
 			display: flex;
 			flex-direction: column;
+			align-items: center;
 			justify-content: center;
 		}
 
-		.home_bottom_area {}
+		.home_bottom_area {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
 	}
 
 	.home_bg_container {
@@ -65,7 +78,7 @@
 
 		.home_bg {
 			width: 100%;
-			height: 65%;
+			height: 60%;
 		}
 	}
 </style>

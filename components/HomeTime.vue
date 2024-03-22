@@ -22,7 +22,7 @@
 
 <style lang="less">
 	.home_time_container {
-		margin-top: 20rpx;
+		margin-top: 25rpx;
 		display: flex;
 		z-index: 1;
 		flex-direction: column;
