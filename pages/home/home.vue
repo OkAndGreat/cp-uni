@@ -7,7 +7,7 @@
 		<view class="home_real_area">
 			<view class="home_top_area">
 				<HeadIcon></HeadIcon>
-
+				<HomeTime></HomeTime>
 			</view>
 			<view class="home_bottom_area"></view>
 		</view>
@@ -18,6 +18,7 @@
 
 <script>
 	import HeadIcon from '../../components/HeadIcon.vue'
+	import HomeTime from '../../components/HomeTime.vue'
 
 	export default {
 		mounted() {},
@@ -31,7 +32,8 @@
 			};
 		},
 		components: {
-			HeadIcon
+			HeadIcon,
+			HomeTime
 		}
 	}
 </script>
@@ -48,6 +50,7 @@
 	.home_real_area {
 		.home_top_area {
 			display: flex;
+			flex-direction: column;
 			justify-content: center;
 		}
 
