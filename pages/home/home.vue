@@ -52,6 +52,7 @@
 		height: 100%;
 		/* 或者使用 100vh */
 		position: fixed;
+		background-color: #F2F0F7
 	}
 
 	.home_real_area {
